@@ -165,7 +165,7 @@ class Character(pygame.sprite.Sprite):
         # falling
 
         if self.jump == True and self.jumping == False:
-            self.jump_vel = -23
+            self.jump_vel = -18
             self.jump = False
             self.jumping = True
 
